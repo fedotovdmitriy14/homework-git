@@ -10,3 +10,24 @@
 """
 2) https://www.codewars.com/kata/5583090cbe83f4fd8c000051
 """ 
+
+#2)
+def digitize(n):
+    ls = []
+    for i in str(n):
+		    ls.append(int(i))
+    return ls[::-1]
+
+#print(digitize(12345))
+
+#1)пока не разобрался с этим 
+
+def fib(a):
+	n = 0
+	lst = []
+	while n != a:
+		lst.append(n)
+		n += 1
+	return lst
+
+print(fib(10))
